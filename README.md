@@ -9,7 +9,7 @@ managed and inline policies that define its access.
 
 ```hcl
 module "sso" {
-  source = "github.com/cybercapybara/terraform-aws-sso"
+  source = "github.com/moveeeax/terraform-aws-sso"
 
   name             = "readonly"
   session_duration = "PT2H"
